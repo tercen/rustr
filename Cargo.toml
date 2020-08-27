@@ -13,6 +13,7 @@ repository = "https://github.com/rustr/rustr"
 
 [lib]
 name = "rustr"
+crate-type = ["staticlib","rlib"]
 
 [features]
 default = []
