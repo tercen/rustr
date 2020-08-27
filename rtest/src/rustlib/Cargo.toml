@@ -7,7 +7,8 @@ name = "rustlib"
 crate-type = ["staticlib","rlib"]
 
 [dependencies.rustr]
-path = "../../../../../../"
+#path = "../../../../../../"
+#path = "../../../../../../"
 features = ["date", "engine", "random", "logging","ty_nalgebra", "ty_num", "extra"]
 
 [dependencies]
